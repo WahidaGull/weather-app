@@ -57,3 +57,7 @@ main {
   line-height: 22px;
   color: rgba(39, 33, 66, 0.4);
 }
+.tempreature-data {
+  font-size: 88px;
+  font-weight: bold;
+}
