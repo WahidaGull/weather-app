@@ -47,3 +47,13 @@ footer {
 main {
   padding: 30px 0;
 }
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+.weather-app-detils {
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(39, 33, 66, 0.4);
+}
