@@ -10,7 +10,7 @@ function displayTemperature(response) {
   description.innerHTML = response.data.condition.description;
   humidity.innerHTML = `${response.data.temperature.humidity}%`;
   windspeed.innerHTML = `${response.data.wind.speed}k/h`;
-  currentDateELement.innerHTML = formatDate(date);
+  currentDateELement.innerHTML = formatDate(date) + ",";
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
 }
 
