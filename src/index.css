@@ -87,15 +87,15 @@ main {
 }
 
 .weather-forecast-temperature {
+  padding: 0 10px;
+}
+
+.weather-forecast-temperatures {
   color: #f65282;
   text-align: center;
   display: flex;
   justify-content: center;
   margin-top: 10px;
-}
-
-.weather-forecast-temperatures {
-  padding: 0 10px;
 }
 .weather-forecast {
   display: flex;
